@@ -1,0 +1,23 @@
+/* ---- Base Element Styles ----*/
+
+* {
+    box-sizing: borer-box;
+}
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+
+/* ---- Header/Top-bar/Navigation ----*/
+.top-bar {
+    background-color: #2d2a2d;
+    color: #b5aec4;
+    height: 55px;
+    text-transform: uppercase;
+}
+.dropdown-item {
+    text-transform: none;
+}
