@@ -1,7 +1,7 @@
 /* ---- Base Element Styles ----*/
 
 * {
-    box-sizing: borer-box;
+    box-sizing: border-box;
 }
 
 body {
@@ -29,6 +29,7 @@ body {
 
 .main-nav-bar {
     box-shadow: 0 0 16px rgba(0, 0, 0, .4);
+    background: #fff;
 }
 .category-nav {
     width: auto;
@@ -38,5 +39,30 @@ body {
     padding-right: 0px;
 }
 .category-nav a {
-    margin-left:7px;
+    margin-left:3px;
+}
+
+.navbar-nav {
+    background-color:#fff;
+    padding-left: 20px;
+}
+/* ----Body Page ----*/
+
+.main-slider {
+    background: url("../img/1slider.jpg");
+    height: 800px;;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+
+/* ----MEDIA QUERIES  ----*/
+
+@media screen and (max-width: 992px) {
+    .form-nav {
+        display: none !important;
+    }
 }
